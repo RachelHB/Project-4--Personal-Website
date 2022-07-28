@@ -10,21 +10,28 @@
 }
 
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+  /* margin-right: 0;
+  margin-left: 0; */
+  /* width: 100%; */
 }
 
-
-
 #grad1 {
-  height:780px;
-
+  height:710px;
+  width: 84%;
     background: linear-gradient(85deg, var(--primary), var(--secondary)),
                 url(coding.jpg) no-repeat center center / cover;
   }
 
   #grad2 {
-    height:1000px;
+    height:1700px;
+    width: 84%;
+    background: linear-gradient(85deg, var(--primary), var(--secondary)),
+                url(coding.jpg) no-repeat center center / cover;
+  }
+
+  #grad3 {
+    height:800px;
+    width: 84%;
     background: linear-gradient(85deg, var(--primary), var(--secondary)),
                 url(coding.jpg) no-repeat center center / cover;
   }
@@ -35,31 +42,6 @@
     margin-left: 100px;
 
   }
-
-  /* #cap1 {
-    font-family: Montserrat ;
-    font-size: 400px;
-  }
-  #cap2 {
-    font-family: Montserrat ;
-    font-size: 400px;
-    margin-top: -210px;
-    margin-left: 100px;
-  }
-
-
-  #name1 {
-    font-family: Montserrat ;
-    font-size: 150px;
-    margin-top: -420px;
-    margin-left: 275px;
-  }
-  #name2 {
-    font-family: Montserrat ;
-    font-size: 150px;
-    margin-top: -430px;
-    margin-left: 390px;
-  } */
 
 
   #logo1 {
@@ -77,9 +59,12 @@
 /* green #93c178 */
 
 .vertical-menu {
-    width: 200px; /* Set a width if you like */
+    width: 100%; /* Set a width if you like */
     text-align: center;
+    /* margin-left: 30px; */
+    
   }
+
   
   .vertical-menu a {
     background-color: white; /* Grey background color */
@@ -189,6 +174,7 @@
       text-align: center;
       position: relative;
       animation: skilllist 2s 1;
+      padding: 20px;
   }
 
   @keyframes skilllist {
@@ -277,6 +263,11 @@
   }
 
   .portrow2 {
+
+    margin-top:50px;
+  }
+
+  .portrow3 {
 
     margin-top:50px;
   }
